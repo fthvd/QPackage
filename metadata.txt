@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since
+# version 2.0 of QGIS this is the proper way to supply
+# information about a plugin. The old method of
+# embedding metadata in __init__.py will
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=QPackage
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=Qpackage is a tool to save both your QGIS project and data contained in the project to a new directory.
+version=1.6
+author=Francois THEVAND
+email=francois.thevand@gmail.com
+
+about=It allows to convert any GIS vector format towards the .shp only. You may also apply a new projection. You can now use qgz files and integrate rasters into your package.
+
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/fthvd/QPackage
+tracker=https://github.com/fthvd/QPackage
+category=Plugins
+repository=https://github.com/fthvd/QPackage
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
