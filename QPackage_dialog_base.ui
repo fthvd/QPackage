@@ -134,17 +134,10 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>Choose the CRS : </string>
+          <string>CRS of project is </string>
          </property>
          <property name="alignment">
           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QComboBox" name="_listeprojections">
-         <property name="editable">
-          <bool>true</bool>
          </property>
         </widget>
        </item>
